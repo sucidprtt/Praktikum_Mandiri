@@ -1,0 +1,50 @@
+*{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-left: 25px;
+}
+
+h1.judul{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.P2{
+    font-size: 15px;
+    text-decoration-line: underline;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    color: rgba(0, 0, 33, 0.889);
+}
+
+input[type='text']{
+    width: 20%;
+}
+
+input[type="text"],select{
+    margin-top: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+/* mouse over link (mouse lewat situ) */
+button:hover{
+    background-color: purple;
+}
+/* selective link (mouse neken) */
+button:active{
+    background-color: orangered;
+    }

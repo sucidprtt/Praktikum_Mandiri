@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS2</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 class="head">Pendaftaran Mahasiswa Baru</h1>
+    <!-- Formulir -->
+        <form action="#" method="get">
+        <!-- input NPM -->
+            <label for="npm">NPM (Nomor Pokok Mahasiswa)</label>
+            <br>
+            <input type="text" name="npm" id="npm">
+            <br><br>
+        <!-- Input Fullname -->
+            <label for="nl">Nama Lengkap</label>
+            <br>
+            <input type="text" name="nl" id="nl">
+            <br><br>
+        <!-- Input Address -->
+            <label for="alamat">Alamat</label>
+            <br>
+            <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+            <br><br>
+        <!-- Select Gender -->
+            <p>Jenis Kelamin</p>
+            <input type="radio" name="jk" id="Laki-laki" value="Laki-laki">
+            <label for="Laki-laki">Laki-laki</label>
+            <br>
+            <input type="radio" name="jk" id="Perempuan" value="Perempuan">
+            <label for="Perempuan">Perempuan</label>
+            <br><br>
+        <!-- Option Prodi -->
+            <label for="prodi">Program Studi</label>
+            <br>
+            <select name="prodi" id="prodi">
+                <option value="si">Sistem Informasi</option>
+                <option value="if">Informatika</option>
+            </select>
+            <br><br>
+        <!-- Button -->
+            <button type="submit">Tambah</button>
+        </form>
+</body>
+</html>

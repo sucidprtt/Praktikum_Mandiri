@@ -1,0 +1,30 @@
+.card{
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-width: 2px;
+}
+
+.card-text{
+    justify-content: center;
+}
+
+.btn-primary{
+    background-color: teal;
+}
+
+.about{
+    margin:0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form.F1{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+button {
+    margin-bottom: 100px;
+}
+

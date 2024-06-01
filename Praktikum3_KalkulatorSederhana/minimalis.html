@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR KALKULATOR</title>
+    <link rel="stylesheet" href="minimalis.css">
+</head>
+<body>
+    <h1 class="judul">Kalkulator Sederhana</h1>
+    <p class="P2">By: Suci Dwi Pratiwi</p>
+        <!-- Input Angka 1 -->
+        <label for="number1">Angka Pertama: </label>
+        <br>
+        <input type="text" name="number1" id="number1" 
+        onclick="appendNumber()">
+        <br><br>
+        <!-- Option Operasi Hitung -->
+        <label for="operation">Operasi Hitung: </label>
+        <br>
+        <select name="operation" id="operation">
+            <option value="kali">Kali (*)</option>
+            <option value="bagi">Bagi (/)</option>
+            <option value="tambah">Tambah (+)</option>
+            <option value="kurang">Kurang (-)</option>
+        </select>
+        <br><br>
+        <!-- Input Angka 2 -->
+        <label for="number2">Angka Kedua: </label>
+        <br>
+        <input type="text" name="number2" id="number2" 
+        onclick="appendNumber()">
+        <br><br>
+        <!-- Tombol Hitung -->
+        <button onclick="calculate()">Jumlah</button>
+        <br><br>
+    <p id="result"></p>
+    <script src="minimalisir.js"></script>
+</body>
+</html>

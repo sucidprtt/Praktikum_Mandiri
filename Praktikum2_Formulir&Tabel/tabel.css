@@ -1,0 +1,37 @@
+*{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+h1.head1{
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+h1.head2{
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse
+}
+
+table{
+    border-width: 3px;
+}
+
+th{
+    background-color: rgb(240, 202, 143);
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
